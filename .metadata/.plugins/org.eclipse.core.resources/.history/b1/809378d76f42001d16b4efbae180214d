@@ -1,0 +1,20 @@
+package pageObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class ShoppingContenet {
+	
+	public WebDriver driver;
+	
+	By havePromo = By.linkText("Have a promo code?");
+	By promoTextBox = By.cssSelector("input[name='discount_name']");
+	By promoAddBtn = By.cssSelector("form[method='post']  span");
+	By proceedToCheckoutBtn = By.cssSelector("PROCEED TO CHECKOUT");
+	By deleteItemBtnOne = By.cssSelector(".cart-items .cart-item:nth-of-type(1) .float-xs-left");
+	By deleteItemBtnTwo = By.cssSelector(".cart-items .cart-item:nth-of-type(2) .float-xs-left");
+	By totalValue = By.cssSelector(".cart-total .value");
+	
+	public ShoppingContent
+
+}

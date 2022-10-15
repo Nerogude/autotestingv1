@@ -1,0 +1,39 @@
+package Section08;
+
+import java.util.List;
+import java.util.Set;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class L111_Extra {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Nero\\Desktop\\Resources\\driver_v1\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		
+		driver.manage().window().maximize();
+		
+		driver.get("https://automationtesting.co.uk/dropdown.html");
+		Select dropdown = new Select(driver.findElement(By.cssSelector("#cars")));
+		System.out.println("The number of options is:"+ dropdown.getOptions().size());
+		List<WebElement>options = dropdown.getOptions();
+		for(WebElement cars:options)
+		{
+			if(cars.equals("Ford"))
+			{
+				cars.click();
+			}
+		}
+		
+		
+	
+	}
+
+}

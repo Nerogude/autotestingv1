@@ -1,0 +1,50 @@
+package uk.co.testing;
+
+import java.io.IOException;
+
+import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import base.BasePage;
+import pageObjects.Homepage;
+import pageObjects.ShopHomepage;
+import pageObjects.ShopProductPage;
+
+public class OrderCompleteTest extends BasePage{
+
+	public OrderCompleteTest() throws IOException {
+		super();
+	}
+	
+	@BeforeTest
+	public void setup() throws IOException {
+		driver = getDriver();
+		driver.get(getUrl());
+	}
+	
+	@AfterTest
+	public void tearDown() {
+		driver.close();
+		driver=null;
+	}
+	@Test
+	public void endToEndTest() throws InterruptedException {
+		Homepage home = new Homepage(driver);
+		home.getTestStoreLink().click();
+		
+		ShopHomepage shopHome = new ShopHomepage(driver); 
+		shopHome.getProductOne().click();
+			
+		ShopProductPage shopProd = new ShopProductPage(driver);
+		Select option = new Select(shopProd.getSizeOption());
+		option.selectByVisibleText("M");
+		shopProd.getQuantityIncrease().click();
+		shopProd.getAddToCartButton();
+		
+		Thread.sleep(2000);
+	}
+	
+}
+

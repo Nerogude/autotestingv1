@@ -8,22 +8,25 @@ import org.openqa.selenium.WebElement;
 
 import base.BasePage;
 
-public class ShopContentPanel extends BasePage{
+public class ShopContentPanel extends BasePage {
+
 	public WebDriver driver;
-	
-	By continueShoppingBtn = By.cssSelector(".btn.btn-secondary");
-	By checkOutBtn = By.cssSelector("PROCEED TO CHECKOUT");
+
+	By continueShoppingBtn = By.xpath("//button[contains(text(), 'Continue')]");
+	By checkoutBtn = By.linkText("PROCEED TO CHECKOUT");
 
 	public ShopContentPanel() throws IOException {
-		super();	
+		this.driver = getDriver();
 	}
-	public WebElement getContinueShoppingBtn() {
+
+	public WebElement getContinueShopBtn() throws IOException {
 		this.driver = getDriver();
 		return driver.findElement(continueShoppingBtn);
 	}
-	public WebElement getCheckOutBtn() {
+
+	public WebElement getCheckoutBtn() throws IOException {
 		this.driver = getDriver();
-		return driver.findElement(checkOutBtn);
+		return driver.findElement(checkoutBtn);
 	}
 
 }

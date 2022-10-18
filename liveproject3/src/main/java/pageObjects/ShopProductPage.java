@@ -21,19 +21,19 @@ public class ShopProductPage extends BasePage{
 		super();
 		
 	}
-	public WebElement getSizeDrpDownBtn() {
+	public WebElement getSizeDrpDownBtn() throws IOException {
 		this.driver = getDriver();
 		return driver.findElement(sizeDrpDownBtn);
 	}
-	public WebElement getQuantityIncrease() {
+	public WebElement getQuantityIncrease() throws IOException {
 		this.driver = getDriver();
 		return driver.findElement(quantityIncrease);
 	}
-	public WebElement getAddToCartBtn() {
+	public WebElement getAddToCartBtn() throws IOException {
 		this.driver = getDriver();
 		return driver.findElement(addToCartBtn);
 	}
-	public WebElement getHomepageLink() {
+	public WebElement getHomepageLink() throws IOException {
 		this.driver = getDriver();
 		return driver.findElement(homepageLink);
 		

@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 
 import base.BasePage;
 
-public class ShopHomePage extends BasePage{
+public class ShopHomepage extends BasePage{
 	
 	public WebDriver driver;
 	
@@ -22,24 +22,24 @@ public class ShopHomePage extends BasePage{
 	By prodEight = By.linkText("Mug Today Is A Good Day");
 
 
-	public ShopHomePage() throws IOException {
+	public ShopHomepage() throws IOException {
 		super();
 		
 	}
 	
-	public WebElement getProdOne() {
+	public WebElement getProdOne() throws IOException {
 		this.driver = getDriver();
 		return driver.findElement(prodOne);
 	}
-	public WebElement getProdTwo() {
+	public WebElement getProdTwo() throws IOException {
 		this.driver = getDriver();
 		return driver.findElement(prodTwo);
 	}
-	public WebElement getProdThree() {
+	public WebElement getProdThree() throws IOException {
 		this.driver=getDriver();
 		return driver.findElement(prodThree);
 	}
-	public WebElement getProdFive() {
+	public WebElement getProdFive() throws IOException {
 		this.driver=getDriver();
 		return driver.findElement(prodFive);
 	}

@@ -2,7 +2,6 @@ package base;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -36,28 +35,37 @@ public class BasePage {
 		return url;
 	}
 	
-	public static String takeSnapShot (String name) {
+	public static String takeSnapShot(String name) {
 		File srcFile = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE);
-		String destFile = System.getProperty("user.dir") + "\\target\\screenshots\\" + timestamps() + ".png";
+		String destFile = System.getProperty("user.dir") + "\\target\\screenshots\\" + timestamp() + ".png";
 		screenShotDestinationPath = destFile;
-		
 		try {
-			FileUtils.copyDirectory(srcFile, new File(destFile));
+			FileUtils.copyFile(srcFile, new File(destFile));
 		}catch (IOException e) {
-			e.printStackTrace();
-		}return name;
-	}
-	public static String timestamps() {return new SimpleDateFormat ("yyyy-MM-dd-HH-mm-ss").format(new Date());
+				e.printStackTrace();
+			}
+			return name;
+			
+		}
+			
+		
+		
+	
+	
+	public static String timestamp() {return new SimpleDateFormat ("yyyy-MM-dd-HH-mm-ss").format(new Date());
 	}
 	
-	public static String getScreenshotDestinationPath() {
-		return screenShotDestinationPath;
-	}
+	public static String getScreenshotDestinationPath() {return screenShotDestinationPath;}
 	
+
 	public static void waitForElementInvisible(WebElement element, int timer) throws IOException {
 		WebDriverWait wait = new WebDriverWait(getDriver(), timer);
 		wait.until(ExpectedConditions.invisibilityOf(element));
-
-		
-	}
 }
+
+}
+
+
+	
+	
+

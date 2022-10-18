@@ -1,0 +1,42 @@
+package uk.co.automationtesting;
+
+import java.io.IOException;
+
+import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.Listeners;
+import org.testng.annotations.Test;
+
+import base.Hooks;
+import pageObjects.Homepage;
+import pageObjects.ShopContentPanel;
+import pageObjects.ShopHomepage;
+import pageObjects.ShopProductPage;
+
+@Listeners(resources.Listeners.class)
+
+public class OrderCompleteTest extends Hooks {
+
+	public OrderCompleteTest() throws IOException {
+		super();		
+	}
+	
+	@Test
+	public void endToEndTest() throws IOException {
+		
+		Homepage home = new Homepage();
+		home.getTestStoreLink().click();
+		
+		ShopHomepage shop = new ShopHomepage();
+		shop.getProdOne().click();
+		
+		ShopProductPage shopprod = new ShopProductPage();
+		Select size = new Select (shopprod.getSizeDrpDownBtn());
+		size.selectByVisibleText("M");
+		shopprod.getQuantityIncrease().click();
+		shopprod.getAddToCartBtn().click();
+		
+		ShopContentPanel contpan = new ShopContentPanel();
+		contpan.getCheckoutBtn().click();
+	}
+
+}

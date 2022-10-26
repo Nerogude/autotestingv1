@@ -1,8 +1,0 @@
-package uk.co.testing.mavenproject;
-
-import org.openqa.selenium.WebDriver;
-
-public class L06_Pom {
-	WebDriver driver;
-
-}

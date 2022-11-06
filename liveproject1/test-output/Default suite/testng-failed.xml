@@ -5,9 +5,9 @@
     <classes>
       <class name="uk.co.testing.AddRemoveItemBasketTest">
         <methods>
+          <include name="set"/>
           <include name="addRemoveItem"/>
           <include name="tearDown"/>
-          <include name="setup"/>
         </methods>
       </class> <!-- uk.co.testing.AddRemoveItemBasketTest -->
     </classes>

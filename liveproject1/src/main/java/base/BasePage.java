@@ -16,54 +16,44 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BasePage {
-
+	
 	private String url;
-	private Properties prop;
+	private Properties prop = new Properties();
 	public static String screenShotDestinationPath;
-
+	
 	public BasePage() throws IOException {
 		prop = new Properties();
-		FileInputStream data = new FileInputStream(
-				System.getProperty("user.dir") + "\\src\\main\\java\\resources\\config.properties");
+		FileInputStream data = new FileInputStream(System.getProperty("user.dir") + 
+				"\\src\\main\\java\\resources\\config.properties");
 		prop.load(data);
 	}
-
-	public static WebDriver getDriver() throws IOException {
-		return WebDriverInstance.getDriver();
+	public static WebDriver getDriver() {
+		return WebDriverInstance.getDriver();	
 	}
-
-	public String getUrl() throws IOException {
+	public String getUrl() {
 		url = prop.getProperty("url");
 		return url;
 	}
-
-	public static String takeSnapShot(String name) throws IOException {
-		File srcFile = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE);
-
-		String destFile = System.getProperty("user.dir") + "\\target\\screenshots\\" + timestamp() + ".png";
+	public static String takeSnapShot(String name) {
+		File srcFile = ((TakesScreenshot)getDriver()).getScreenshotAs(OutputType.FILE);
+		String destFile = System.getProperty("user.dir")+ "\\target\\Screenshots\\" + timestamp() + ".png";
 		screenShotDestinationPath = destFile;
-		
 		try {
 			FileUtils.copyFile(srcFile, new File(destFile));
-		} catch (IOException e) {
+		}catch(IOException e) {
 			e.printStackTrace();
 		}
-		
 		return name;
-		
 	}
-
-	public static String timestamp() {
-		return new SimpleDateFormat("yyyy-MM-dd HH-mm-ss").format(new Date());
-	}
+	public static String timestamp() {return new SimpleDateFormat ("yyyy-MM-dd-HH-mm-ss").format(new Date());}
 	
-	public static String getScreenshotDestinationPath() {
-		return screenShotDestinationPath;
-	}
+	public static String getScreenshotDestinationPath() {return screenShotDestinationPath;}
 	
 	public static void waitForElementInvisible(WebElement element, int timer) throws IOException {
 		WebDriverWait wait = new WebDriverWait(getDriver(), timer);
 		wait.until(ExpectedConditions.invisibilityOf(element));
 	}
+
 	
+
 }

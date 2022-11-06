@@ -27,6 +27,7 @@ public class NewPracticePro2 {
 		driver.switchTo().alert().accept();
 		driver.switchTo().frame(0);
 		
+		
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("input[name='RESULT_TextField-1']")));
 		driver.findElement(By.cssSelector("input[name='RESULT_TextField-1']")).sendKeys("advantage");
 		
@@ -37,6 +38,15 @@ public class NewPracticePro2 {
 		for(WebElement e:options) {
 			System.out.println(e.getText());
 		}
+		List <WebElement> links = driver.findElements(By.tagName("a"));
+		System.out.println(links.size());
+		for(WebElement link:links) {
+			System.out.println(link.getText());
+		}
+		String handleValue = driver.getWindowHandle();
+		System.out.println(handleValue);
+		driver.switchTo().window(handleValue).close();
+		
 
 	}
 

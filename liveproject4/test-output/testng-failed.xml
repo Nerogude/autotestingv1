@@ -7,7 +7,7 @@
         <methods>
           <include name="endToEndTest"/>
           <include name="setup"/>
-          <include name="tearDown"/>
+          <include name="teardown"/>
         </methods>
       </class> <!-- uk.co.testing.OrderCompleteTest -->
     </classes>

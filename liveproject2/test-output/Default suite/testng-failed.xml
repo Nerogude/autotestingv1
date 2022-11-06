@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="uk.co.testing.ShopLoginTest">
+      <class name="uk.co.testing.OrderCompleteTest">
         <methods>
           <include name="set"/>
-          <include name="addRemoveItem"/>
+          <include name="endToEndTest"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- uk.co.testing.ShopLoginTest -->
+      </class> <!-- uk.co.testing.OrderCompleteTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

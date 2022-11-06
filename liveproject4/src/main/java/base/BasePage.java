@@ -12,35 +12,35 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BasePage {
-	
 	private String url;
-	private Properties prop;
+	private Properties prop = new Properties();
 	public static String screenShotDestinationPath;
+	
 	public BasePage() throws IOException {
-		
 		prop = new Properties();
-		FileInputStream data = new FileInputStream(System.getProperty("user.dir") + 
+		FileInputStream data = new FileInputStream(System.getProperty("user.dir")+ 
 				"\\src\\main\\java\\resources\\config.properties");
 		prop.load(data);
 	}
-	public static WebDriver getDriver() {
+	public static WebDriver getDriver() throws IOException{
 		return WebDriverInstance.getDriver();
 	}
 	public String getUrl() throws IOException{
 		url = prop.getProperty("url");
 		return url;
 	}
-	public static String takeSnapShot(String name) throws IOException{
-		File srcFile = ((TakesScreenshot)getDriver()).getScreenshotAs(OutputType.FILE);
+	public static String takeSnapshot(String name) throws WebDriverException, IOException {
+		File srcfile = ((TakesScreenshot)getDriver()).getScreenshotAs(OutputType.FILE);
 		String destFile = System.getProperty("user.dir") + "\\target\\Screenshots\\" + timestamp() + ".png";
-		screenShotDestinationPath = destFile;
+		destFile = screenShotDestinationPath;
 		try {
-			FileUtils.copyDirectory(srcFile, new File(destFile));
+			FileUtils.copyFile(srcfile, new File(destFile));
 		}catch(IOException e) {
 			e.printStackTrace();
 		}
@@ -54,9 +54,6 @@ public class BasePage {
 		WebDriverWait wait = new WebDriverWait(getDriver(), timer);
 		wait.until(ExpectedConditions.invisibilityOf(element));
 	}
-	
+
 }
-
-	
-
 

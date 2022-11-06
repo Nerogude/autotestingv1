@@ -25,7 +25,7 @@ public class Listeners extends BasePage implements ITestListener {
 		ExtentManager.getTest().fail(result.getThrowable());
 		try {
 			System.out.println("Test failed: " + result.getName());
-			takeSnapShot(result.getMethod().getMethodName());
+			takeSnapshot(result.getMethod().getMethodName());
 			ExtentManager.attachImage();
 		} catch (Exception e) {
 			e.printStackTrace();

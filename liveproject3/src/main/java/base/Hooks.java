@@ -11,15 +11,13 @@ public class Hooks extends BasePage{
 		super();
 		
 	}
-	
 	@BeforeTest
 	public void setup() throws IOException {
 		getDriver().get(getUrl());
 	}
 	@AfterTest
-	public void tearDown() {
+	public void teardown() {
 		WebDriverInstance.cleanupDriver();
 	}
-	
 
 }

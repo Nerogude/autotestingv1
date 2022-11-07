@@ -2,6 +2,7 @@ package base;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -23,21 +24,21 @@ public class BasePage {
 	
 	public BasePage() throws IOException {
 		prop = new Properties();
-		FileInputStream data = new FileInputStream(System.getProperty("user.dir") + 
+		FileInputStream data = new FileInputStream(System.getProperty("user.dir")+
 				"\\src\\main\\java\\resources\\config.properties");
 		prop.load(data);
 	}
-	public static WebDriver getDriver() {
-		return WebDriverInstance.getDriver();	
+	public static WebDriver getDriver() throws IOException{
+		return WebDriverInstance.getDriver();
 	}
-	public String getUrl() {
-		url = prop.getProperty("url");
+	public String getUrl() throws IOException{
+		url=prop.getProperty("url");
 		return url;
 	}
-	public static String takeSnapShot(String name) {
+	public static String takeSnapShot(String name) throws IOException{
 		File srcFile = ((TakesScreenshot)getDriver()).getScreenshotAs(OutputType.FILE);
-		String destFile = System.getProperty("user.dir")+ "\\target\\Screenshots\\" + timestamp() + ".png";
-		screenShotDestinationPath = destFile;
+		String destFile= System.getProperty("user.dir")+ "\\target\\Screenshots\\" + timestamp() + ".png";
+		screenShotDestinationPath= destFile;
 		try {
 			FileUtils.copyFile(srcFile, new File(destFile));
 		}catch(IOException e) {

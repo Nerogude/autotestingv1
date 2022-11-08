@@ -4,8 +4,6 @@ import org.testng.ITestContext;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 import org.json.JSONObject;
-import org.testng.annotations.Test;
-
 import com.github.javafaker.Faker;
 
 public class UpdateUser {

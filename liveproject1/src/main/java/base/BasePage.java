@@ -32,13 +32,13 @@ public class BasePage {
 		return WebDriverInstance.getDriver();
 	}
 	public String getUrl() throws IOException{
-		url=prop.getProperty("url");
+		url = prop.getProperty("url");
 		return url;
 	}
-	public static String takeSnapShot(String name) throws IOException{
-		File srcFile = ((TakesScreenshot)getDriver()).getScreenshotAs(OutputType.FILE);
-		String destFile= System.getProperty("user.dir")+ "\\target\\Screenshots\\" + timestamp() + ".png";
-		screenShotDestinationPath= destFile;
+	public static String takeSnapShot(String name)throws IOException {
+		File srcFile= ((TakesScreenshot)getDriver()).getScreenshotAs(OutputType.FILE);
+		String destFile = System.getProperty("user.dir")+ "\\target\\Screenshots\\" + timestamp()+".png";
+		screenShotDestinationPath=destFile;
 		try {
 			FileUtils.copyFile(srcFile, new File(destFile));
 		}catch(IOException e) {
@@ -55,6 +55,5 @@ public class BasePage {
 		wait.until(ExpectedConditions.invisibilityOf(element));
 	}
 
-	
 
 }

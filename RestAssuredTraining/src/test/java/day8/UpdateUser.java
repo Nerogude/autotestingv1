@@ -3,15 +3,10 @@ package day8;
 import org.testng.ITestContext;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
-import static io.restassured.matcher.RestAssuredMatchers.*;
-import static org.hamcrest.Matchers.*;
-
 import org.json.JSONObject;
 import org.testng.annotations.Test;
 
 import com.github.javafaker.Faker;
-
-import io.restassured.response.Response;
 
 public class UpdateUser {
 	

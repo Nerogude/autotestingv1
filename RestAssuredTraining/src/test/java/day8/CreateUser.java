@@ -1,5 +1,6 @@
 package day8;
 
+import org.testng.ITestContext;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 import static io.restassured.matcher.RestAssuredMatchers.*;
@@ -15,7 +16,7 @@ import io.restassured.response.Response;
 public class CreateUser {
 	
 	@Test
-	void tes_createUser() {
+	void tes_createUser(ITestContext context) {
 		Faker faker = new Faker();
 		
 		JSONObject data = new JSONObject();
@@ -35,6 +36,7 @@ public class CreateUser {
 			.post("https://gorest.co.in/public/v2/users")
 			.jsonPath().getInt("id");
 		System.out.println("value of id is: "+id);
+		context.setAttribute("user_id", id);
 		
 		
 	}

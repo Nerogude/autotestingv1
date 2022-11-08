@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-08T00:13:12 GMT" name="Default suite" finished-at="2022-11-08T00:13:12 GMT" duration-ms="267">
+  <suite started-at="2022-11-08T02:33:18 GMT" name="Default suite" finished-at="2022-11-08T02:33:22 GMT" duration-ms="3987">
     <groups>
     </groups>
-    <test started-at="2022-11-08T00:13:12 GMT" name="Default test" finished-at="2022-11-08T00:13:12 GMT" duration-ms="267">
-      <class name="day7.FakerDataGenerator">
-        <test-method signature="testGenerateDummyData()[pri:0, instance:day7.FakerDataGenerator@169e6180]" started-at="2022-11-08T00:13:12 GMT" name="testGenerateDummyData" finished-at="2022-11-08T00:13:12 GMT" duration-ms="224" status="PASS">
+    <test started-at="2022-11-08T02:33:18 GMT" name="Default test" finished-at="2022-11-08T02:33:22 GMT" duration-ms="3987">
+      <class name="day8.CreateUser">
+        <test-method signature="tes_createUser()[pri:0, instance:day8.CreateUser@169e6180]" started-at="2022-11-08T02:33:18 GMT" name="tes_createUser" finished-at="2022-11-08T02:33:22 GMT" duration-ms="3937" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGenerateDummyData -->
-      </class> <!-- day7.FakerDataGenerator -->
+        </test-method> <!-- tes_createUser -->
+      </class> <!-- day8.CreateUser -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

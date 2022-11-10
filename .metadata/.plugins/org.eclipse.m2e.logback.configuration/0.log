@@ -4030,3 +4030,23 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.co
 2022-11-09 13:42:26,471 [Worker-797: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\livepersonalproject\src\test\resources
 2022-11-09 14:16:29,885 [Worker-808: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
 2022-11-09 14:16:29,888 [Worker-808: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:16:29,889 [Worker-808: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\livepersonalproject\src\main\resources
+2022-11-09 14:16:29,889 [Worker-808: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:16:29,889 [Worker-808: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\livepersonalproject\src\test\resources
+2022-11-09 14:22:35,645 [Worker-816: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2022-11-09 14:22:35,648 [Worker-816: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:22:35,648 [Worker-816: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\livepersonalproject\src\main\resources
+2022-11-09 14:22:35,649 [Worker-816: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:22:35,649 [Worker-816: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\livepersonalproject\src\test\resources
+2022-11-09 20:04:02,988 [Worker-849: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2022-11-09 20:04:03,002 [Worker-849: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 20:04:03,002 [Worker-849: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\livepersonalproject\src\main\resources
+2022-11-09 20:04:03,006 [Worker-849: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 20:04:03,006 [Worker-849: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\livepersonalproject\src\test\resources
+2022-11-10 01:04:34,214 [Worker-857: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2022-11-10 01:04:34,230 [Worker-857: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-10 01:04:34,237 [Worker-857: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\livepersonalproject\src\main\resources
+2022-11-10 01:04:34,238 [Worker-857: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-10 01:04:34,238 [Worker-857: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\livepersonalproject\src\test\resources
+2022-11-10 01:16:26,594 [Worker-858: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2022-11-10 01:16:26,601 [Worker-858: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.

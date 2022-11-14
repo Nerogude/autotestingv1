@@ -33,7 +33,7 @@ public class UserTests {
 		Assert.assertEquals(response.getStatusCode(), 200);
 	}
 	
-	@Test
+	@Test(priority=2)
 	public void testReadUser()
 	{
 		Response response = UserEndPoints.readUser(this.userPayload.getUsername());

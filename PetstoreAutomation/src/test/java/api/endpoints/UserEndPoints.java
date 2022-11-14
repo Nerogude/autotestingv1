@@ -3,6 +3,7 @@ package api.endpoints;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import api.payload.User;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 

@@ -11,7 +11,7 @@ import io.restassured.response.Response;
 
 public class UserEndPoints {
 	
-	@Test(priority=1)
+
 	public static Response createUser(User payload)
 	{
 		Response response =given()
@@ -23,7 +23,7 @@ public class UserEndPoints {
 			.post(Routes.post_url);
 		return response;	
 	}
-	@Test(priority=2)
+	
 	public static Response readUser(String userName)
 	{
 		Response response = given()
@@ -34,7 +34,7 @@ public class UserEndPoints {
 		return response;
 	}
 	
-	@Test(priority=3)
+	
 	public static Response updateUser(String userName,User payload)
 	{
 		Response response = given()
@@ -46,7 +46,7 @@ public class UserEndPoints {
 		return response;
 	}
 	
-	@Test(priority=4)
+	
 	public static Response deleteUser(String userName)
 	{
 		Response response =given()

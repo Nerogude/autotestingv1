@@ -1,0 +1,61 @@
+package api.endPoint;
+
+import static io.restassured.RestAssured.*;
+import static io.restassured.matcher.RestAssuredMatchers.*;
+import static org.hamcrest.Matchers.*;
+
+import org.testng.annotations.Test;
+
+import api.payload.User;
+import io.restassured.response.Response;
+
+public class UserEndPoints {
+	
+	@Test(priority=1)
+	public static Response createUser(User payload)
+	{
+		Response response =given()
+			.contentType("application/json")
+			.accept("application/json")
+			.body(payload)
+		
+		.when()
+			.post(Routes.post_url);
+		return response;	
+	}
+	@Test(priority=2)
+	public static Response readUser(String userName)
+	{
+		Response response = given()
+			.pathParam("username", userName)
+		
+		.when()
+			.get(Routes.get_url);
+		return response;
+	}
+	
+	@Test(priority=3)
+	public static Response updateUser(String userName,User payload)
+	{
+		Response response = given()
+			.body(payload)
+			.pathParam("username", userName)
+		
+		.when()
+			.put(Routes.update_url);
+		return response;
+	}
+	
+	@Test(priority=4)
+	public static Response deleteUser(String userName)
+	{
+		Response response =given()
+			.pathParam("username",userName)
+				
+		
+		.when()
+			.delete(Routes.delete_url);
+		return response;
+	}
+
+}

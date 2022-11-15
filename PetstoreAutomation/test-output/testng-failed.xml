@@ -8,6 +8,7 @@
           <include name="setup"/>
           <include name="testReadUser"/>
           <include name="testPostUser"/>
+          <include name="testUpdateUser"/>
         </methods>
       </class> <!-- api.test.UserTests -->
     </classes>

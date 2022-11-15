@@ -1,5 +1,6 @@
 package api.test;
 
+import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -8,7 +9,6 @@ import com.github.javafaker.Faker;
 import api.endpoints.UserEndPoints;
 import api.payload.User;
 import io.restassured.response.Response;
-import junit.framework.Assert;
 
 public class UserTests {
 	Faker fake;
@@ -33,6 +33,7 @@ public class UserTests {
 		Assert.assertEquals(response.getStatusCode(), 200);
 	}
 	
+	
 	@Test(priority=2)
 	public void testReadUser()
 	{
@@ -41,6 +42,27 @@ public class UserTests {
 		response.statusCode();
 		
 		Assert.assertEquals(response.getStatusCode(), 200);
+	}
+	
+	
+	@Test(priority=3)
+	public void testUpdateUser()
+	{
+		userPayload.setFirstName(fake.name().firstName());
+		userPayload.setLastName(fake.name().lastName());
+		userPayload.setEmail(fake.internet().safeEmailAddress());
+		
+		Response response =UserEndPoints.updateUser(this.userPayload.getUsername(), userPayload);
+		response.then().log().all();
+		Assert.assertEquals(response.getStatusCode(), 200);
+	}
+	
+	@Test(priority=4)
+	public void testDeleteUser()
+	{
+		Response response = UserEndPoints.deleteUser(this.userPayload.getUsername());
+		Assert.assertEquals(response.getStatusCode(), 200);
+		
 	}
 
 }

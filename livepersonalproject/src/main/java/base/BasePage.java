@@ -2,7 +2,6 @@ package base;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -54,6 +53,6 @@ public class BasePage {
 	public static void waitForElementInvisible(WebElement element, int timer) throws IOException {
 		WebDriverWait wait = new WebDriverWait(getDriver(), timer);
 		wait.until(ExpectedConditions.invisibilityOf(element));
-
+	}
 
 }

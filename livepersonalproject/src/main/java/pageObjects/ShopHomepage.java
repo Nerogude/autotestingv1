@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 
 import base.BasePage;
 
-public class ShopHomePage extends BasePage{
+public class ShopHomepage extends BasePage{
 	
 	public WebDriver driver;
 	
@@ -21,7 +21,7 @@ public class ShopHomePage extends BasePage{
 	By productSeven = By.linkText("Mug The Adventure Begins");
 	By productEight = By.linkText("Mug Today Is A Good Day");
 
-	public ShopHomePage() throws IOException {
+	public ShopHomepage() throws IOException {
 		super();
 	}
 	public WebElement getProductOne() throws IOException {

@@ -6,9 +6,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import base.Hooks;
+import base.BasePage;
 
-public class ShoppingCart extends Hooks{
+
+
+public class ShoppingCart extends BasePage{
 	
 	public WebDriver driver;
 	

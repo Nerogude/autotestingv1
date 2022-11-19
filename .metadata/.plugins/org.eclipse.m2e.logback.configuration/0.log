@@ -4496,3 +4496,143 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.co
 2022-11-16 05:10:46,077 [Worker-432: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-11-16 05:10:46,077 [Worker-432: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\livepersonalproject\src\main\resources
 2022-11-16 05:10:46,077 [Worker-432: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-16 05:10:46,093 [Worker-432: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\livepersonalproject\src\test\resources
+2022-11-16 10:32:22,725 [Worker-455: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.petstore:NewPetStore:1.0-SNAPSHOT @ C:\Users\Nero\Desktop\Resources\workspace\NewPetStore\pom.xml.
+2022-11-16 10:32:22,872 [Worker-455: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /NewPetStore/src/main/java
+2022-11-16 10:32:22,875 [Worker-455: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /NewPetStore/src/test/java
+2022-11-16 10:32:22,918 [Worker-455: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2022-11-16 10:32:23,799 [Worker-457: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-16 10:32:23,800 [Worker-457: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\NewPetStore\src\main\resources
+2022-11-16 10:32:23,801 [Worker-457: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-16 10:32:23,801 [Worker-457: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\NewPetStore\src\test\resources
+2022-11-16 10:36:45,356 [Worker-455: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.petstore:NewPetStore:1.0-SNAPSHOT @ C:\Users\Nero\Desktop\Resources\workspace\NewPetStore\pom.xml.
+2022-11-16 10:36:50,053 [Worker-455: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-16 10:36:50,055 [Worker-455: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\NewPetStore\src\main\resources
+2022-11-16 10:36:50,057 [Worker-455: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-16 10:36:50,057 [Worker-455: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\NewPetStore\src\test\resources
+2022-11-16 10:36:51,495 [Worker-455: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-16 10:36:51,497 [Worker-455: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\NewPetStore\src\main\resources
+2022-11-16 10:36:51,497 [Worker-455: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-16 10:36:51,498 [Worker-455: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\NewPetStore\src\test\resources
+2022-11-16 10:39:23,058 [Worker-455: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-16 10:39:23,060 [Worker-455: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\NewPetStore\src\main\resources
+2022-11-16 10:39:23,061 [Worker-455: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-16 10:39:23,061 [Worker-455: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\NewPetStore\src\test\resources
+2022-11-16 10:45:46,913 [Worker-463: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 10:45:46,916 [Worker-463: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\main\resources
+2022-11-16 10:45:46,917 [Worker-463: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 10:45:46,920 [Worker-463: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\test\resources
+2022-11-16 10:46:09,904 [Worker-463: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-16 10:46:09,904 [Worker-463: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\NewPetStore\src\main\resources
+2022-11-16 10:46:09,905 [Worker-463: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-16 10:46:09,905 [Worker-463: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\NewPetStore\src\test\resources
+2022-11-16 10:47:10,358 [Worker-463: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 10:47:10,360 [Worker-463: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\main\resources
+2022-11-16 10:47:10,361 [Worker-463: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 10:47:10,363 [Worker-463: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\test\resources
+2022-11-16 10:47:26,560 [Worker-455: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 10:47:26,562 [Worker-455: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\main\resources
+2022-11-16 10:47:26,563 [Worker-455: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 10:47:26,565 [Worker-455: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\test\resources
+2022-11-16 10:47:41,366 [Worker-463: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 10:47:41,367 [Worker-463: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\main\resources
+2022-11-16 10:47:41,368 [Worker-463: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 10:47:41,369 [Worker-463: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\test\resources
+2022-11-16 10:48:04,367 [Worker-462: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 10:48:04,367 [Worker-462: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\main\resources
+2022-11-16 10:48:04,368 [Worker-462: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 10:48:04,369 [Worker-462: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\test\resources
+2022-11-16 10:48:45,441 [Worker-463: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 10:48:45,442 [Worker-463: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\main\resources
+2022-11-16 10:48:45,444 [Worker-463: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 10:48:45,445 [Worker-463: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\test\resources
+2022-11-16 10:57:54,647 [Worker-463: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 10:57:54,649 [Worker-463: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\main\resources
+2022-11-16 10:57:54,650 [Worker-463: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 10:57:54,652 [Worker-463: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\test\resources
+2022-11-16 11:00:16,052 [Worker-468: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 11:00:16,053 [Worker-468: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\main\resources
+2022-11-16 11:00:16,055 [Worker-468: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 11:00:16,056 [Worker-468: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\test\resources
+2022-11-16 11:04:46,891 [Worker-474: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 11:04:46,892 [Worker-474: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\main\resources
+2022-11-16 11:04:46,894 [Worker-474: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 11:04:46,895 [Worker-474: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\test\resources
+2022-11-16 11:05:06,301 [Worker-472: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 11:05:06,302 [Worker-472: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\main\resources
+2022-11-16 11:05:06,304 [Worker-472: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 11:05:06,305 [Worker-472: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\test\resources
+2022-11-16 11:07:06,037 [Worker-478: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 11:07:06,038 [Worker-478: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\main\resources
+2022-11-16 11:07:06,039 [Worker-478: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 11:07:06,040 [Worker-478: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\test\resources
+2022-11-16 11:34:16,623 [Worker-491: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 11:34:16,623 [Worker-491: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\main\resources
+2022-11-16 11:34:16,623 [Worker-491: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 11:34:16,623 [Worker-491: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\test\resources
+2022-11-16 11:49:25,756 [Worker-496: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 11:49:25,757 [Worker-496: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\main\resources
+2022-11-16 11:49:25,758 [Worker-496: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 11:49:25,758 [Worker-496: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\test\resources
+2022-11-16 11:49:30,969 [Worker-491: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 11:49:30,970 [Worker-491: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\main\resources
+2022-11-16 11:49:30,970 [Worker-491: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 11:49:30,971 [Worker-491: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\test\resources
+2022-11-16 11:50:58,668 [Worker-498: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 11:50:58,669 [Worker-498: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\main\resources
+2022-11-16 11:50:58,669 [Worker-498: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 11:50:58,670 [Worker-498: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\test\resources
+2022-11-16 11:51:59,137 [Worker-497: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 11:51:59,138 [Worker-497: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\main\resources
+2022-11-16 11:51:59,139 [Worker-497: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 11:51:59,140 [Worker-497: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\test\resources
+2022-11-16 11:52:22,013 [Worker-499: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 11:52:22,014 [Worker-499: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\main\resources
+2022-11-16 11:52:22,015 [Worker-499: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 11:52:22,015 [Worker-499: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\test\resources
+2022-11-16 11:53:50,428 [Worker-500: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 11:53:50,430 [Worker-500: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\main\resources
+2022-11-16 11:53:50,431 [Worker-500: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 11:53:50,432 [Worker-500: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\test\resources
+2022-11-16 11:55:12,449 [Worker-499: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 11:55:12,450 [Worker-499: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\main\resources
+2022-11-16 11:55:12,450 [Worker-499: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 11:55:12,451 [Worker-499: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\test\resources
+2022-11-16 12:09:05,981 [Worker-496: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 12:09:05,982 [Worker-496: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\main\resources
+2022-11-16 12:09:05,982 [Worker-496: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 12:09:05,983 [Worker-496: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\test\resources
+2022-11-16 12:10:30,573 [Worker-506: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 12:10:30,574 [Worker-506: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\main\resources
+2022-11-16 12:10:30,574 [Worker-506: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-16 12:10:30,576 [Worker-506: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\test\resources
+2022-11-19 04:00:12,552 [Worker-558: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 04:00:12,561 [Worker-558: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\main\resources
+2022-11-19 04:00:12,562 [Worker-558: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 04:00:12,563 [Worker-558: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\test\resources
+2022-11-19 04:00:41,968 [Worker-558: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 04:00:41,969 [Worker-558: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\main\resources
+2022-11-19 04:00:41,971 [Worker-558: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 04:00:41,973 [Worker-558: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\test\resources
+2022-11-19 04:01:12,697 [Worker-563: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 04:01:12,698 [Worker-563: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\main\resources
+2022-11-19 04:01:12,700 [Worker-563: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 04:01:12,701 [Worker-563: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\test\resources
+2022-11-19 04:01:59,168 [Worker-559: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 04:01:59,170 [Worker-559: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\main\resources
+2022-11-19 04:01:59,171 [Worker-559: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 04:01:59,173 [Worker-559: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\test\resources
+2022-11-19 04:02:46,228 [Worker-559: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 04:02:46,229 [Worker-559: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\main\resources
+2022-11-19 04:02:46,230 [Worker-559: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 04:02:46,231 [Worker-559: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\test\resources
+2022-11-19 04:03:22,143 [Worker-562: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 04:03:22,149 [Worker-562: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\main\resources
+2022-11-19 04:03:22,150 [Worker-562: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 04:03:22,152 [Worker-562: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\test\resources
+2022-11-19 04:12:52,168 [Worker-567: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 04:12:52,169 [Worker-567: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\main\resources
+2022-11-19 04:12:52,169 [Worker-567: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 04:12:52,170 [Worker-567: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\test\resources
+2022-11-19 04:14:36,233 [Worker-566: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 04:14:36,234 [Worker-566: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\main\resources

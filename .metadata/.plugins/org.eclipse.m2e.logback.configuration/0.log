@@ -4680,3 +4680,27 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.co
 2022-11-19 05:38:05,982 [Worker-607: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\test\resources
 2022-11-19 05:42:19,633 [Worker-615: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-11-19 05:42:19,634 [Worker-615: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\main\resources
+2022-11-19 05:42:19,635 [Worker-615: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 05:42:19,636 [Worker-615: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\test\resources
+2022-11-19 06:04:48,725 [Worker-622: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 06:04:48,727 [Worker-622: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\main\resources
+2022-11-19 06:04:48,728 [Worker-622: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 06:04:48,729 [Worker-622: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation\src\test\resources
+2022-11-19 16:40:07,375 [Worker-636: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-19 16:40:07,375 [Worker-636: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\livepersonalproject\src\main\resources
+2022-11-19 16:40:07,377 [Worker-636: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-19 16:40:07,377 [Worker-636: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\livepersonalproject\src\test\resources
+2022-11-19 17:01:59,881 [Worker-645: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-19 17:01:59,881 [Worker-645: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\livepersonalproject\src\main\resources
+2022-11-19 17:01:59,881 [Worker-645: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-19 17:01:59,881 [Worker-645: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\livepersonalproject\src\test\resources
+2022-11-19 17:02:54,161 [Worker-651: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-19 17:02:54,161 [Worker-651: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\livepersonalproject\src\main\resources
+2022-11-19 17:02:54,161 [Worker-651: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-19 17:02:54,161 [Worker-651: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\livepersonalproject\src\test\resources
+2022-11-19 17:07:08,988 [Worker-648: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-19 17:07:08,988 [Worker-648: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\livepersonalproject\src\main\resources
+2022-11-19 17:07:08,988 [Worker-648: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-19 17:07:08,988 [Worker-648: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\livepersonalproject\src\test\resources
+2022-11-19 17:07:33,487 [Worker-652: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-19 17:07:33,487 [Worker-652: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\livepersonalproject\src\main\resources

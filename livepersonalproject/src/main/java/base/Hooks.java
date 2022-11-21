@@ -10,10 +10,9 @@ public class Hooks extends BasePage{
 	public Hooks() throws IOException {
 		super();
 	}
-	
 	@BeforeTest
 	public void setup() {
-		getDriver().get(getUrl());
+	getDriver().get(getUrl());
 	}
 	@AfterTest
 	public void tearDown() {

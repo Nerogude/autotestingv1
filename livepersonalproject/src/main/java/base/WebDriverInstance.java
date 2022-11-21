@@ -50,5 +50,9 @@ public class WebDriverInstance {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		return driver;
 	}
+	public static void cleanupDriver() {
+		driver.get().quit();
+		driver.remove();
+	}
 
 }

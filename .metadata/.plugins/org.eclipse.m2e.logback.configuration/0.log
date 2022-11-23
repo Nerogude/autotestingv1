@@ -4870,3 +4870,15 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.co
 2022-11-22 23:46:22,235 [Worker-835: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-11-22 23:46:22,235 [Worker-835: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\MyFirstProject\src\main\resources
 2022-11-22 23:46:22,235 [Worker-835: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:46:22,235 [Worker-835: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\MyFirstProject\src\test\resources
+2022-11-22 23:53:41,535 [Worker-830: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:53:41,535 [Worker-830: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\MyFirstProject\src\main\resources
+2022-11-22 23:53:41,535 [Worker-830: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:53:41,535 [Worker-830: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\MyFirstProject\src\test\resources
+2022-11-23 00:44:51,375 [Worker-851: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 00:44:51,375 [Worker-851: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\MyFirstProject\src\main\resources
+2022-11-23 00:44:51,375 [Worker-851: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 00:44:51,375 [Worker-851: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\MyFirstProject\src\test\resources
+2022-11-23 00:45:46,674 [Worker-850: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 00:45:46,674 [Worker-850: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\MyFirstProject\src\main\resources
+2022-11-23 00:45:46,674 [Worker-850: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.

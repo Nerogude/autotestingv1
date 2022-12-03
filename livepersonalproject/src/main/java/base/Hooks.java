@@ -12,7 +12,7 @@ public class Hooks extends BasePage{
 	}
 	@BeforeTest
 	public void setup() {
-	getDriver().get(getUrl());
+		getDriver().get(getUrl());
 	}
 	@AfterTest
 	public void tearDown() {

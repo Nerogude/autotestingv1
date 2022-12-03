@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-02T18:28:30 GMT" name="Default suite" finished-at="2022-12-02T18:28:49 GMT" duration-ms="18677">
+  <suite started-at="2022-12-03T15:52:29 GMT" name="Default suite" finished-at="2022-12-03T15:52:55 GMT" duration-ms="25816">
     <groups>
     </groups>
-    <test started-at="2022-12-02T18:28:30 GMT" name="Default test" finished-at="2022-12-02T18:28:49 GMT" duration-ms="18677">
+    <test started-at="2022-12-03T15:52:29 GMT" name="Default test" finished-at="2022-12-03T15:52:55 GMT" duration-ms="25816">
       <class name="uk.co.automationtest.OrderCompleteTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:uk.co.automationtest.OrderCompleteTest@73700b80]" started-at="2022-12-02T18:28:31 GMT" name="setup" finished-at="2022-12-02T18:28:33 GMT" duration-ms="2850" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:uk.co.automationtest.OrderCompleteTest@73700b80]" started-at="2022-12-03T15:52:29 GMT" name="setup" finished-at="2022-12-03T15:52:33 GMT" duration-ms="4157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="endToEndTest()[pri:0, instance:uk.co.automationtest.OrderCompleteTest@73700b80]" started-at="2022-12-02T18:28:33 GMT" name="endToEndTest" finished-at="2022-12-02T18:28:48 GMT" duration-ms="14901" status="PASS">
+        <test-method signature="endToEndTest()[pri:0, instance:uk.co.automationtest.OrderCompleteTest@73700b80]" started-at="2022-12-03T15:52:33 GMT" name="endToEndTest" finished-at="2022-12-03T15:52:54 GMT" duration-ms="20682" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endToEndTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:uk.co.automationtest.OrderCompleteTest@73700b80]" started-at="2022-12-02T18:28:48 GMT" name="tearDown" finished-at="2022-12-02T18:28:49 GMT" duration-ms="680" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:uk.co.automationtest.OrderCompleteTest@73700b80]" started-at="2022-12-03T15:52:54 GMT" name="tearDown" finished-at="2022-12-03T15:52:55 GMT" duration-ms="642" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

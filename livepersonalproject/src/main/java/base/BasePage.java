@@ -18,36 +18,37 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BasePage {
 	
-	private String url;
 	private Properties prop;
-	public static String screenShotDestinationPath;
+	private String url;
+	public static String screenShotDestinationPath; 
 	
 	public BasePage() throws IOException {
 		
 		prop = new Properties();
 		FileInputStream data = new FileInputStream(System.getProperty("user.dir")+
 				"\\src\\main\\java\\resources\\config.properties");
-		prop.load(data);	
+		prop.load(data);
+		
 	}
 	public static WebDriver getDriver() {
 		return WebDriverInstance.getDriver();
 	}
 	public String getUrl() {
-		url=prop.getProperty("url");
+		url= prop.getProperty("url");
 		return url;
 	}
 	public static String takeSnapShot(String name) {
-		File srcFile = ((TakesScreenshot)getDriver()).getScreenshotAs(OutputType.FILE);
+		File srcFile= ((TakesScreenshot)getDriver()).getScreenshotAs(OutputType.FILE);
 		String destFile= System.getProperty("user.dir")+"\\target\\screenshot\\" + timestamp() + ".png";
-		screenShotDestinationPath=destFile;
+		screenShotDestinationPath= destFile;
 		try {
-			FileUtils.copyDirectory(srcFile, new File(destFile));
+			FileUtils.copyFile(srcFile, new File(destFile));
 		}catch (IOException e) {
 			e.printStackTrace();
 		}
-		return name;
+		return name;	
 	}
-	public static String timestamp() {return new SimpleDateFormat ("yyyy-MM-dd-HH-mm-ss").format(new Date());}
+	public static String timestamp() {return new SimpleDateFormat ("yyyy-MM-dd-HH-mm-ss").format (new Date());}
 	
 	public static String getScreenshotDestinationPath() {return screenShotDestinationPath;}
 	
@@ -56,7 +57,5 @@ public class BasePage {
 		wait.until(ExpectedConditions.invisibilityOf(element));
 	}
 
-	}
-	
 
-
+}

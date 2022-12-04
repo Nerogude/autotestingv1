@@ -5347,3 +5347,15 @@ org.eclipse.core.runtime.CoreException: Launch configuration OrderCompleteTest r
 2022-12-04 16:03:13,279 [Worker-1223: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-12-04 16:03:13,279 [Worker-1223: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\MyFirstProject\src\main\resources
 2022-12-04 16:03:13,279 [Worker-1223: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-04 16:03:13,279 [Worker-1223: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\MyFirstProject\src\test\resources
+2022-12-04 16:08:56,324 [Worker-1228: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-04 16:08:56,324 [Worker-1228: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\liveproject1\src\main\resources
+2022-12-04 16:08:56,332 [Worker-1228: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-04 16:08:56,332 [Worker-1228: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\liveproject1\src\test\resources
+2022-12-04 16:12:15,633 [Worker-1225: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-04 16:12:15,633 [Worker-1225: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\MyFirstProject\src\main\resources
+2022-12-04 16:12:15,634 [Worker-1225: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-04 16:12:15,634 [Worker-1225: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\MyFirstProject\src\test\resources
+2022-12-04 16:27:52,122 [Worker-1237: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-04 16:27:52,123 [Worker-1237: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nero\Desktop\Resources\workspace\MyFirstProject\src\main\resources
+2022-12-04 16:27:52,124 [Worker-1237: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.

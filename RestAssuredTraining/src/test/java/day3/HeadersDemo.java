@@ -26,8 +26,7 @@ public class HeadersDemo {
 		
 		.then()
 			.header("Content-Type", "text/html; charset=ISO-8859-1")
-			.header("Content-Encoding", "gzip")
-			.header("Server", "gws");
+			.header("Content-Encoding", "gzip");
 	}
 	
 @Test(priority=2)

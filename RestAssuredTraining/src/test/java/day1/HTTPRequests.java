@@ -1,19 +1,20 @@
 package day1;
 
-import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 
 import java.util.HashMap;
 
-public class HTTPRequest {
+import org.testng.annotations.Test;
+
+public class HTTPRequests {
 	
 	int id;
 	
 	@Test(priority=1)
-	void getUsers()
-	{
+	void getUsers() {
+		
 		given()
 		
 		.when()
@@ -21,35 +22,35 @@ public class HTTPRequest {
 		
 		.then()
 			.statusCode(200)
-			.body("page", equalTo(2))
+			.body("page",equalTo(2))
 			.log().all();
 	}
 	@Test(priority=2)
-	void createUser()
-	{
+	void createUser() {
+		
 		HashMap data = new HashMap();
 		data.put("name", "nero");
-		data.put("job", "qa engineer");
+		data.put("job", "qa analyst");
 		
-		id = given()
+		id=given()
 			.contentType("application/json")
-			.body(data)	
-		
+			.body(data)
+				
 		.when()
 			.post("https://reqres.in/api/users")
 			.jsonPath().getInt("id");
-		
-		//.then()
-			//.statusCode(201)
-			//.log().all();			
+			
+			
+		/*.then()
+			.statusCode(201)
+			.log().all();*/
 	}
 	
 	@Test(priority=3,dependsOnMethods= {"createUser"})
-	void updateUser()
-	{
+	void updateUser() {
 		HashMap data = new HashMap();
-		data.put("name", "john");
-		data.put("job", "teacher");
+		data.put("name", "nyero");
+		data.put("job", "SDET");
 		
 		given()
 			.contentType("application/json")
@@ -57,16 +58,13 @@ public class HTTPRequest {
 		
 		.when()
 			.put("https://reqres.in/api/users/"+id)
-			
-			
+		
 		.then()
-			.statusCode(200)
-			.log().all();
+			.statusCode(200);
 	}
-	
 	@Test(priority=4)
-	void deleteUser()
-	{
+	void deleteUser() {
+		
 		given()
 		
 		.when()

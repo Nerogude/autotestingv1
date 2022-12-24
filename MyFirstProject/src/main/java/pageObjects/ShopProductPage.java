@@ -18,11 +18,11 @@ public class ShopProductPage extends BasePage{
 	public ShopProductPage() throws IOException {
 		super();
 	}
-	public WebElement getProdOne() {
+	public WebElement getProdOne() throws IOException {
 		this.driver=getDriver();
 		return driver.findElement(prodOne);
 	}
-	public WebElement getProdTwo() {
+	public WebElement getProdTwo() throws IOException {
 		this.driver=getDriver();
 		return driver.findElement(prodTwo);
 	}

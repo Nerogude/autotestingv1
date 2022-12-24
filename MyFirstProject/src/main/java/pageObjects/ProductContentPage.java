@@ -18,11 +18,11 @@ public class ProductContentPage extends BasePage{
 	public ProductContentPage() throws IOException {
 		super();
 	}
-	public WebElement getDropDownBtn() {
+	public WebElement getDropDownBtn() throws IOException {
 		this.driver=getDriver();
 		return driver.findElement(dropDownBtn);
 	}
-	public WebElement getAddToBasketBtn() {
+	public WebElement getAddToBasketBtn() throws IOException {
 		this.driver=getDriver();
 		return driver.findElement(addToBasketBtn);
 	}

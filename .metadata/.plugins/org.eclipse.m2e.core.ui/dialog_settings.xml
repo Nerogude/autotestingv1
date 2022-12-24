@@ -66,6 +66,10 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Nero\Desktop\Resources\workspace\MyFirstProject"/>
+			<item value="C:\Users\Nero\Desktop\Resources\workspace\NewPetStore"/>
+			<item value="C:\Users\Nero\Desktop\Resources\workspace\NewProject.com"/>
+			<item value="C:\Users\Nero\Desktop\Resources\workspace\PetstoreAutomation"/>
 			<item value="C:\Users\Nero\Desktop\Resources\workspace\liveproject5"/>
 			<item value="C:\Users\Nero\Desktop\Resources\workspace\liveproject4"/>
 			<item value="C:\Users\Nero\Desktop\Resources\workspace\liveproject3"/>

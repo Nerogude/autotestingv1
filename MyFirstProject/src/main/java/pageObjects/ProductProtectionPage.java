@@ -19,11 +19,11 @@ public class ProductProtectionPage extends BasePage{
 		super();
 		
 	}
-	public WebElement getNoThanksBtn() {
+	public WebElement getNoThanksBtn() throws IOException {
 		this.driver=getDriver();
 		return driver.findElement(noThanksBtn);
 	}
-	public WebElement getAddProtectionBtn() {
+	public WebElement getAddProtectionBtn() throws IOException {
 		this.driver=getDriver();
 		return driver.findElement(addProtectionBtn);
 		

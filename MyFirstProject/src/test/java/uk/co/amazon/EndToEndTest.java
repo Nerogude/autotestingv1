@@ -18,13 +18,14 @@ public class EndToEndTest extends Hooks{
 		// TODO Auto-generated constructor stub
 	}
 	@Test
-	public void endToEndTest() throws IOException {
+	public void endToEndTest() throws IOException, InterruptedException {
 	ExtentManager.log("Starting EndToEndTest...");
 	
 	//creating an object the homepage
 	HomePage home= new HomePage();
 	ExtentManager.pass("reached shop homepage...");
 	home.getSearchInputField().sendKeys("laptop");
+	Thread.sleep(3000);
 	home.getSearchSubmitBtn().click();
 	
 	}

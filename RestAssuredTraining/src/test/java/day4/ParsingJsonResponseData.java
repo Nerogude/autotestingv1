@@ -34,13 +34,14 @@ public class ParsingJsonResponseData {
 		//Approach2
 		
 		Response res = given()
-			.contentType(ContentType.JSON)
+						.contentType(ContentType.JSON)
 		
 		.when()
 			.get("http://localhost:3000/store");
 		
 		Assert.assertEquals(res.getStatusCode(),200);
 		Assert.assertEquals(res.header("Content-Type"), "application/json; charset=utf-8");
+		
 		
 		String bookname= res.jsonPath().get("book[3].title").toString();
 		Assert.assertEquals(bookname, "The Lord of the Rings");
@@ -87,4 +88,7 @@ public class ParsingJsonResponseData {
 		for(int i=0; i<jo.getJSONArray("book").length();i++) {
 			String price=jo.getJSONArray("books").getJSONObject(i).get("price").toString();
 		}
+		
+	}
 }
+	

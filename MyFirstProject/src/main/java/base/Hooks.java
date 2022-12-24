@@ -11,7 +11,7 @@ public class Hooks extends BasePage{
 		super();
 	}
 	@BeforeTest
-	public void setup() {
+	public void setup() throws IOException {
 		getDriver().get(getUrl());
 	}
 	@AfterTest

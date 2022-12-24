@@ -20,19 +20,19 @@ public class HomePage extends BasePage{
 	public HomePage() throws IOException {
 		super();
 	}
-	public WebElement getAddressField() {
+	public WebElement getAddressField() throws IOException {
 		this.driver=getDriver();
 		return driver.findElement(addressField);	
 	}
-	public WebElement getSearchDropDown() {
+	public WebElement getSearchDropDown() throws IOException {
 		this.driver=getDriver();
 		return driver.findElement(searchDropDown);
 	}
-	public WebElement getSearchInputField() {
+	public WebElement getSearchInputField() throws IOException {
 		this.driver=getDriver();
 		return driver.findElement(searchInputField);
 	}
-	public WebElement getSearchSubmitBtn() {
+	public WebElement getSearchSubmitBtn() throws IOException {
 		this.driver=getDriver();
 		return driver.findElement(searchSubmitBtn);
 	}

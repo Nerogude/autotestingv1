@@ -6,10 +6,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>uk.co.automationtest</groupId>
-	<artifactId>livepersonalproject</artifactId>
+	<artifactId>universityproject</artifactId>
 	<version>1.0-SNAPSHOT</version>
 
-	<name>livepersonalproject</name>
+	<name>universityproject</name>
 	<!-- FIXME change it to the project's website -->
 	<url>http://www.example.com</url>
 
@@ -39,7 +39,7 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>7.4.0</version>
-			<scope>test</scope>
+			
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->

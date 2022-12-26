@@ -56,5 +56,29 @@ public class HomePage extends BasePage{
 		this.driver = getDriver();
 		return driver.findElement(cypressv11Link);
 	}
+	public WebElement getSeleniumWebdriverCucumberLink() {
+		this.driver = getDriver();
+		return driver.findElement(seleniumWebdriverCucumberLink);
+	}
+	public WebElement getWebdriverIoLink() {
+		this.driver = getDriver();
+		return driver.findElement(webdriverIoLink);
+	}
+	public WebElement getContactUsLink() {
+		this.driver = getDriver();
+		return driver.findElement(contactUsLink);
+	}
+	public WebElement getLoginPortalLink() {
+		this.driver = getDriver();
+		return driver.findElement(loginPortalLink);
+	}
+	public WebElement getButtonClicksLink() {
+		this.driver = getDriver();
+		return driver.findElement(buttonClicksLink);
+	}
+	public WebElement getToDoListLink() {
+		this.driver = getDriver();
+		return driver.findElement(toDoListLink);
+	}
 
 }

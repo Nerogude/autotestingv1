@@ -127,7 +127,7 @@ public class Homepage extends BasePage {
 		return driver.findElement(tablesLink);
 	}
 
-	public WebElement getTestStoreLink() throws IOException {
+	public WebElement getTestStoreLink() throws IOException  {
 		this.driver = getDriver();
 		return driver.findElement(testStoreLink);
 	}

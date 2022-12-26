@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import base.BasePage;
 
@@ -37,8 +38,23 @@ public class HomePage extends BasePage{
 	By automationteststoreLink = By.cssSelector("[class='col-lg-12'] p");
 
 	public HomePage() throws IOException {
-		super();
-		
+		super();	
+	}
+	public WebElement getCypressWithCucumberLink() {
+		this.driver=getDriver();
+		return driver.findElement(cypressWithCucumberLink);
+	}
+	public WebElement getSeleniumWebdriverNewFeaturesLink() {
+		this.driver = getDriver();
+		return driver.findElement(seleniumWebdriverNewFeaturesLink);
+	}
+	public WebElement getMasteringSelectorsLink() {
+		this.driver = getDriver();
+		return driver.findElement(masteringSelectorsLink);
+	}
+	public WebElement getCypressv11Link() {
+		this.driver = getDriver();
+		return driver.findElement(cypressv11Link);
 	}
 
 }

@@ -80,5 +80,22 @@ public class HomePage extends BasePage{
 		this.driver = getDriver();
 		return driver.findElement(toDoListLink);
 	}
+	public WebElement getPageObjectModelLink() {
+		this.driver = getDriver();
+		return driver.findElement(pageObjectModelLink);
+	}
+	public WebElement getAccordionLink() {
+		this.driver = getDriver();
+		return driver.findElement(accordionLink);
+	}
+	public WebElement getDropdownCheckboxesLink() {
+		this.driver = getDriver();
+		return driver.findElement(dropdownCheckboxesLink);
+	}
+	public WebElement getAjaxLoaderLink() {
+		this.driver = getDriver();
+		return driver.findElement(ajaxLoaderLink);
+	}
+	
 
 }

@@ -96,6 +96,22 @@ public class HomePage extends BasePage{
 		this.driver = getDriver();
 		return driver.findElement(ajaxLoaderLink);
 	}
+	public WebElement getActionsLink() {
+		this.driver = getDriver();
+		return driver.findElement(actionsLink);
+	}
+	public WebElement getScrollingAroundLink() {
+		this.driver = getDriver();
+		return driver.findElement(scrollingAroundLink);
+	}
+	public WebElement getPopupsLink() {
+		this.driver = getDriver();
+		return driver.findElement(popupsLink);
+	}
+	public WebElement getIframeLink() {
+		this.driver = getDriver();
+		return driver.findElement(iframeLink);
+	}
 	
 
 }

@@ -112,6 +112,29 @@ public class HomePage extends BasePage{
 		this.driver = getDriver();
 		return driver.findElement(iframeLink);
 	}
-	
+	public WebElement getHiddenElementsLink() {
+		this.driver = getDriver();
+		return driver.findElement(hiddenElementsLink);
+	}
+	public WebElement getDataTablesLink() {
+		this.driver = getDriver();
+		return driver.findElement(dataTablesLink);
+	}
+	public WebElement getAutocompleteTextfieldLink() {
+		this.driver = getDriver();
+		return driver.findElement(autocompleteTextfieldLink);
+	}
+	public WebElement getFileUploadLink() {
+		this.driver = getDriver();
+		return driver.findElement(fileUploadLink);
+	}
+	public WebElement getDatepickerLink() {
+		this.driver = getDriver();
+		return driver.findElement(datepickerLink);
+	}
+	public WebElement getAutomationteststoreLink() {
+		this.driver = getDriver();
+		return driver.findElement(automationteststoreLink);
+	}
 
 }

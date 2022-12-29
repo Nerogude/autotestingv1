@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import base.BasePage;
 
@@ -20,8 +21,35 @@ public class CypressWithCucumberPage extends BasePage{
 	By buyNowBtn = By.cssSelector("[class='slider-menu--cta-button--17y69'] [class]");
 
 	public CypressWithCucumberPage() throws IOException {
-		super();
-		
+		super();	
+	}
+	public WebElement getSearchBar() {
+		this.driver = getDriver();
+		return driver.findElement(searchBar);
+	}
+	public WebElement getSearchButton() {
+		this.driver = getDriver();
+		return driver.findElement(searchButton);
+	}
+	public WebElement getAddToCartBtn() {
+		this.driver= getDriver();
+		return driver.findElement(addToCartBtn);
+	}
+	public WebElement getPreviewThisCourse() {
+		this.driver = getDriver();
+		return driver.findElement(previewThisCourse);
+	}
+	public WebElement getCouponTextField() {
+		this.driver = getDriver();
+		return driver.findElement(couponTextField);
+	}
+	public WebElement getApplyBtn() {
+		this.driver = getDriver();
+		return driver.findElement(applyBtn);
+	}
+	public WebElement getBuyNowBtn() {
+		this.driver = getDriver();
+		return driver.findElement(buyNowBtn);
 	}
 
 }

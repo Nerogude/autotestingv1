@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 
 import base.ExtentManager;
 import base.Hooks;
+import pageObjects.CartContentPanel;
 import pageObjects.HomePage;
 import pageObjects.ShopContentPanel;
 
@@ -30,6 +31,12 @@ public class AddToCartTest extends Hooks{
 		ShopContentPanel shopPanel = new ShopContentPanel();
 		ExtentManager.pass("Reached the ShopContentPanel...");
 		shopPanel.getGoToCartBtn().click();
+		
+		//creating an object of the CartContentPanel
+		CartContentPanel cartPanel = new CartContentPanel();
+		ExtentManager.pass("Reached the CartContentPanel...");
+		cartPanel.getRemoveLink().click();
+		
 	}
 
 }

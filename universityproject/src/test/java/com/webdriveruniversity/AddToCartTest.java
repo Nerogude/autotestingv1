@@ -35,7 +35,8 @@ public class AddToCartTest extends Hooks{
 		//creating an object of the CartContentPanel
 		CartContentPanel cartPanel = new CartContentPanel();
 		ExtentManager.pass("Reached the CartContentPanel...");
-		cartPanel.getRemoveLink().click();
+		//cartPanel.getDriver().switchTo().alert().dismiss();
+		cartPanel.getCheckoutBtn().click();
 		
 	}
 
